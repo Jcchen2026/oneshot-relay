@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oneshot-relay"
+version = "0.1.0"
+description = "Collect exactly one human input from a phone during an unattended script run: a disposable form behind a Cloudflare quick tunnel that shuts itself down after one submission or a timeout."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jcchen2026" }]
+keywords = [
+    "human-in-the-loop",
+    "one-shot",
+    "approval-gate",
+    "tunnel",
+    "cloudflared",
+    "nat-traversal",
+    "automation",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: System :: Networking",
+    "Topic :: Software Development :: Build Tools",
+]
+
+[project.urls]
+Homepage = "https://github.com/Jcchen2026/oneshot-relay"
+Repository = "https://github.com/Jcchen2026/oneshot-relay"
+Issues = "https://github.com/Jcchen2026/oneshot-relay/issues"
+
+[tool.setuptools]
+packages = ["oneshot_relay"]
